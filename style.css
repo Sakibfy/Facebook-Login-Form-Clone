@@ -1,0 +1,169 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+body{
+font-family: Arial, Helvetica, sans-serif;
+  color:#1c1e21;
+font-size: 14px;
+}
+img{
+  height: auto;
+  width: 100%;
+}
+#body_area{
+  background: #f0f2f5;
+}
+.Container{
+width: 980px;
+padding: 20px;
+margin: 0 auto;
+}
+
+#Content_area{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 112px 0 16px 0;
+ 
+}
+.left_side{
+  flex-basis: 540px;
+}
+.left_side img{
+  width: 300px;
+}
+
+.left_side h2{
+font-size: 24px;
+padding-left: 30px;
+color:  #1c1e21;
+font-size: normal;
+line-height: 28px; 
+}
+/* form area */
+
+.form_side{
+  flex-basis: 396px;
+  text-align: center;
+}
+
+.form_side form {
+ background: #fff;
+ text-align: center;
+ box-shadow: 0 0 10px #ddd;
+ border-radius: 10px;
+}
+
+ .form_side input{
+  display: block;
+  width: 100%;
+  padding: 14px 16px;
+  border: 1px solid #ddd;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  font-size: 17px;
+ }
+
+ .form_side input[type='button'] {
+  background: #1877f2;
+  border: 1px solid #1877f2;
+  font-weight: bold;
+  cursor: pointer;
+  color: #fff;
+ }
+
+
+ .form_side a {
+  color: #1877f2;
+  margin-bottom: 15px;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  display: block;
+ }
+
+ .form_side a:hover{
+  text-decoration: underline;
+ }
+
+ .form_side button[type='button']  {
+  background: #36a420;
+  padding: 16px;
+  font-size: 20px;
+  color: #ddd;
+  font-weight: bold;
+  border: 1px solid #36a420;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-bottom: 10px;
+ }      
+
+ .form_side p a {
+  display: inline-block;
+  font-weight: bold;
+   margin-top: 28px;
+  color: #1c1e21;
+ }
+ 
+
+/* footer_area */
+
+#footer_area{
+  background: #fff;
+  padding: 25px 0;
+}
+
+#footer_area ul{
+margin-left: 250px;
+text-align: left;
+margin-bottom: 15px;
+padding-bottom: 15px;
+border-bottom: 1px solid #ddd;
+}
+
+#footer_area ul li{
+  display: inline-block;
+  margin: 5px 5px;
+}
+#footer_area ul li a{
+  text-decoration: none;
+  color: #737373;
+  font-size: 12px;
+}
+
+#footer_area ul li a:hover{
+  text-decoration: underline;
+}
+
+#footer_area p{
+  font-size: 11px;
+  margin-left: 250px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
